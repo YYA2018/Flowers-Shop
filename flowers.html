@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gazelle Shop</title>
+    <script
+      src="https://kit.fontawesome.com/23c50b0bb8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.dcodes.net/2/payment_icons/dc_payment_icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inclusive+Sans&family=Just+Another+Hand&family=Lexend&family=Manrope&family=Montserrat+Alternates&family=Mooli&family=Play:wght@400;700&family=Poppins:ital@0;1&family=Press+Start+2P&family=Rethink+Sans&family=Rubik&family=Sunflower:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <label for="menu-btn" class="menu"
+        ><i class="fa-solid fa-bars header-icon"></i
+      ></label>
+      <div class="logo">Gazelle.</div>
+      <ul class="header-list">
+        <li><a href="#home-sec" class="header-choice">Home</a></li>
+        <li><a href="#about-sec" class="header-choice">About</a></li>
+        <li><a href="#products-sec" class="header-choice">Products</a></li>
+        <li><a href="#review-sec" class="header-choice">Review</a></li>
+        <li><a href="#contact-sec" class="header-choice">Contact</a></li>
+      </ul>
+      <div class="header-icons">
+        <i class="fa-solid fa-heart header-icon"></i>
+        <i class="fa-solid fa-cart-shopping header-icon"></i>
+        <i class="fa-solid fa-user-large header-icon"></i>
+      </div>
+    </header>
+
+    <input type="checkbox" id="menu-btn" class="checkbox" />
+
+    <div class="menu-container">
+      <ul class="menu-list">
+        <li class="menu-choice-cont">
+          <a href="#home-sec" class="menu-choice">Home</a>
+        </li>
+        <li class="menu-choice-cont">
+          <a href="#about-sec" class="menu-choice">About</a>
+        </li>
+        <li class="menu-choice-cont">
+          <a href="#products-sec" class="menu-choice">Products</a>
+        </li>
+        <li class="menu-choice-cont">
+          <a href="#review-sec" class="menu-choice">Review</a>
+        </li>
+        <li class="menu-choice-cont">
+          <a href="#contact-sec" class="menu-choice">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <section id="home-sec" class="home-section">
+      <h1 class="home-title">Fresh Flowers</h1>
+      <h2 class="home-sub-title sub-title">Natural & Beautiful flowers</h2>
+      <p class="home-desc normal-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        culpa unde quasi enim, impedit velit pariatur ullam, placeat magnam
+        voluptates quidem consequuntur necessitatibus consequatur aperiam natus
+        possimus iure praesentium atque!
+      </p>
+      <button class="shop-now-btn btn">Shop Now</button>
+    </section>
+
+    <section id="about-sec" class="about-section">
+      <h2 class="about-title title">About Us</h2>
+      <div class="about-contents">
+        <div class="video-container">
+          <video class="video" src="videos.mp4" loop muted autoplay></video>
+          <div class="video-ribbon">BEST SELLER</div>
+        </div>
+        <div class="about-desc-container">
+          <h3 class="about-sub-title sub-title">Why Choose Us</h3>
+          <p class="about-desc normal-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+            numquam voluptate doloremque nostrum perferendis cumque debitis
+            delectus tenetur ipsum ullam! Esse cupiditate voluptas vel alias
+            dolorum cumque delectus aspernatur! Rem.
+          </p>
+          <button class="learn-more-btn btn">Learn More</button>
+        </div>
+      </div>
+      <div class="adv-bar">
+        <div class="adv">
+          <i class="fa-solid fa-truck-fast adv-icon"></i>
+          <div class="adv-desc">
+            <p class="adv-title">Free Shipping</p>
+            <p class="adv-text">On All Orders</p>
+          </div>
+        </div>
+
+        <div class="adv">
+          <i class="fa-solid fa-sack-dollar adv-icon"></i>
+          <div class="adv-desc">
+            <p class="adv-title">10 Days Return</p>
+            <p class="adv-text">Moneyback Gurantee</p>
+          </div>
+        </div>
+
+        <div class="adv">
+          <i class="fa-solid fa-gifts adv-icon"></i>
+          <div class="adv-desc">
+            <p class="adv-title">Offer & Gift</p>
+            <p class="adv-text">On All Orders</p>
+          </div>
+        </div>
+
+        <div class="adv">
+          <i class="fa-solid fa-shield-halved adv-icon"></i>
+          <div class="adv-desc">
+            <p class="adv-title">Secure Payment</p>
+            <p class="adv-text">Protected By Paypal</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products-sec" class="products-section">
+      <h2 class="products-title title">Latest Products</h2>
+
+      <div class="products-grid">
+        <div class="product-card card-1">
+          <img src="./pots/f1.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-2">
+          <img src="./pots/f2.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-3">
+          <img src="./pots/f3.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-4">
+          <img src="./pots/f4.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-5">
+          <img src="./pots/f5.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-6">
+          <img src="./pots/f6.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-7">
+          <img src="./pots/f7.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-8">
+          <img src="./pots/f8.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card card-9">
+          <img src="./pots/f9.jpg" class="product-image" />
+          <div class="pro-price-bar">
+            <p class="product-name">Flower Pot</p>
+            <p class="product-sale">
+              $15.99<span class="product-price">$18.99</span>
+            </p>
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="actions-bar">
+            <div class="love-reaction reaction">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="add-reaction">Add To Cart</div>
+            <div class="share-reaction reaction">
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review-sec" class="customer-review-section">
+      <h2 class="review-title title">Customer's Review</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur nobis optio quo quas aspernatur officiis tempore qui.
+            Officia, molestiae ut molestias, corporis explicabo eos,
+          </p>
+          <div class="reviewer-details">
+            <div class="reviewer">
+              <img src="./models/m1.jpg" class="reviewer-img" />
+              <div class="reviewer-info">
+                <p class="reviewer-name">John Deo</p>
+                <p class="reviewer-state">Happy customer</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-quote-right quote-icon"></i>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur nobis optio quo quas aspernatur officiis tempore qui.
+            Officia, molestiae ut molestias, corporis explicabo eos,
+          </p>
+          <div class="reviewer-details">
+            <div class="reviewer">
+              <img src="./models/m2.jpg" class="reviewer-img" />
+              <div class="reviewer-info">
+                <p class="reviewer-name">John Deo</p>
+                <p class="reviewer-state">Happy customer</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-quote-right quote-icon"></i>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur nobis optio quo quas aspernatur officiis tempore qui.
+            Officia, molestiae ut molestias, corporis explicabo eos,
+          </p>
+          <div class="reviewer-details">
+            <div class="reviewer">
+              <img src="./models/m3.jpg" class="reviewer-img" />
+              <div class="reviewer-info">
+                <p class="reviewer-name">John Deo</p>
+                <p class="reviewer-state">Happy customer</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-quote-right quote-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact-sec" class="contact-section">
+      <h2 class="title contact-title">Contact Us</h2>
+      <div class="contact-contents">
+        <form action="#" class="contact-form">
+          <input type="text" class="contact-input" placeholder="Name" />
+          <input type="email" class="contact-input" placeholder="E-mail" />
+          <input type="number" class="contact-input" placeholder="Number" />
+          <textarea
+            class="contact-input message-input"
+            cols="30"
+            rows="30"
+            placeholder="Message"
+          ></textarea>
+          <button class="send-btn btn">Send Message</button>
+        </form>
+        <div class="contact-img-container">
+          <img src="contact.jpg" class="contact-img" />
+        </div>
+      </div>
+    </section>
+    <section class="company-details-section">
+      <div class="list-container">
+        <div class="list-title">Quick Links</div>
+        <ul class="company-list">
+          <li class="item"><a class="item-a" href="#home-sec">Home</a></li>
+          <li class="item"><a class="item-a" href="#about-sec">About</a></li>
+          <li class="item">
+            <a class="item-a" href="#products-sec">Products</a>
+          </li>
+          <li class="item"><a class="item-a" href="#review-sec">Review</a></li>
+          <li class="item">
+            <a class="item-a" href="#contact-sec">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <div class="list-title">Extra Links</div>
+        <ul class="company-list">
+          <li class="item"><a class="item-a" href="#">My Account</a></li>
+          <li class="item"><a class="item-a" href="#">My Order</a></li>
+          <li class="item"><a class="item-a" href="#">My Favorite</a></li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <div class="list-title">Locations</div>
+        <ul class="company-list">
+          <li class="item"><a class="item-a" href="#">India</a></li>
+          <li class="item"><a class="item-a" href="#">USA</a></li>
+          <li class="item"><a class="item-a" href="#">Japan</a></li>
+          <li class="item"><a class="item-a" href="#">France</a></li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <div class="list-title">Contact Info</div>
+        <ul class="company-list">
+          <li class="item"><a class="item-a" href="#">+123-456-7890</a></li>
+          <li class="item"><a class="item-a" href="#">example@gmail.com</a></li>
+          <li class="item"><a class="item-a" href="#">Alexandria, Egypt</a></li>
+          <div class="company-icons">
+            <span
+              class="dc_payment_icons_glossy_75 dc_americanexpress_glossy pay-icon"
+              title="American Express"
+            ></span>
+            <span
+              class="dc_payment_icons_glossy_75 dc_paypal_glossy pay-icon"
+              title="PayPal"
+            ></span>
+            <span
+              class="dc_payment_icons_glossy_75 dc_mastercard_glossy pay-icon"
+              title="Mastercard"
+            ></span>
+            <span
+              class="dc_payment_icons_glossy_75 dc_discover_glossy pay-icon"
+              title="Discover"
+            ></span>
+            <span
+              class="dc_payment_icons_glossy_75 dc_visa_glossy pay-icon"
+              title="Visa"
+            ></span>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>
+        Created By <span class="creator">Yasmeen.Y.A</span> | Thanks for
+        Visiting
+      </p>
+    </footer>
+  </body>
+</html>

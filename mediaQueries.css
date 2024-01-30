@@ -1,0 +1,405 @@
+@media (max-width: 1170px) {
+  .customer-review-section {
+    height: 80vh;
+  }
+  .header {
+    padding: 0 0.6rem;
+  }
+  .logo {
+    font-size: 3.9rem;
+  }
+  .header-icon {
+    margin: 0 0.3rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .title {
+    font-size: var(--title-text-880);
+    height: 3.2rem;
+  }
+  .sub-title {
+    font-size: var(--subtitle-text-880);
+  }
+  .normal-text {
+    font-size: var(--small-text-880);
+    line-height: 1.5rem;
+  }
+  .btn {
+    font-size: var(--btn-880);
+    height: 2.3rem;
+    border-radius: 10px;
+  }
+
+  /* header & home */
+
+  .header-choice {
+    font-size: var(--menuChoice-880);
+  }
+  .header-icon {
+    font-size: 1rem;
+    margin: 0 0.1rem;
+  }
+  .home-desc {
+    width: 48%;
+  }
+  .shop-now-btn {
+    width: 17%;
+  }
+  .home-title {
+    font-size: 3rem;
+  }
+
+  /* about section */
+  .video-container {
+    width: 90%;
+  }
+  .video {
+    width: 100%;
+    border: white 12px solid;
+  }
+  .learn-more-btn {
+    width: 30%;
+    height: 2rem;
+  }
+  .adv-bar {
+    height: 15%;
+  }
+  .adv {
+    width: 97%;
+  }
+  .adv-text {
+    font-size: 0.7rem;
+  }
+  .adv-icon {
+    font-size: 1.7rem;
+    margin-right: 0.8rem;
+  }
+
+  /* products sections */
+  .actions-bar {
+    font-size: var(--small-text-880);
+  }
+
+  /* reviews section */
+  .review-card {
+    padding: 0.7rem;
+  }
+  .review-text {
+    line-height: 1.1rem;
+    font-size: var(--review-text-880);
+  }
+  .reviewer-img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .reviewer-name {
+    font-size: 0.8rem;
+  }
+  .reviewer-state {
+    font-size: 0.7rem;
+  }
+  .quote-icon {
+    font-size: 2.7rem;
+  }
+
+  /* contact and company info */
+  .company-details-section {
+    font-size: var(--small-text-880);
+    padding: 1.8rem;
+  }
+  .list-container {
+    width: 90%;
+  }
+  .company-list {
+    line-height: 2rem;
+  }
+  .list-title {
+    font-size: var(--subtitle-text-880);
+  }
+}
+
+@media (max-width: 680px) {
+  .title {
+    font-size: var(--title-text-680);
+    height: 3rem;
+  }
+  .sub-title {
+    font-size: var(--subtitle-text-680);
+  }
+  .normal-text {
+    font-size: var(--small-text-680);
+    line-height: 1.3rem;
+    width: 76%;
+  }
+  .btn {
+    font-size: var(--btn-680);
+    height: 2.4rem;
+    border-radius: 10px;
+  }
+
+  /* header & home */
+
+  .header-icon {
+    font-size: 1.4rem;
+    margin: 0.4rem;
+  }
+
+  .header-list {
+    display: none;
+  }
+  .shop-now-btn {
+    width: 20%;
+  }
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  /* about section */
+
+  .about-section {
+    height: 180vh;
+    padding: 1.5rem;
+  }
+  .about-contents {
+    height: 60%;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .learn-more-btn {
+    width: 30%;
+    height: 1.9rem;
+  }
+  .video-container {
+    height: 35%;
+  }
+  .video {
+    width: 95%;
+    border: white 12px solid;
+  }
+  .video-ribbon {
+    width: 95%;
+  }
+  .about-desc-container {
+    height: 70%;
+  }
+  .about-desc {
+    line-height: 1.2rem;
+  }
+
+  .adv-bar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 25%);
+    width: 100%;
+    height: 38%;
+    padding: 0.7rem;
+  }
+
+  .adv {
+    width: 85%;
+    height: 90%;
+    font-size: 1.15rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+  }
+  .adv-text {
+    font-size: 0.8rem;
+  }
+  .adv-icon {
+    font-size: 2rem;
+    margin-right: 1.2rem;
+  }
+
+  /* products sections */
+  .actions-bar {
+    font-size: var(---small-text-680);
+  }
+  .add-reaction {
+    width: 70%;
+  }
+  /* reviews section */
+
+  .customer-review-section {
+    height: 125vh;
+  }
+  .reviews-grid {
+    height: 80%;
+    gap: 0.2rem;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 32.5%);
+  }
+  .review-card {
+    font-size: 1rem;
+    width: 95%;
+    height: 95%;
+  }
+  .reviewer-img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .quote-icon {
+    font-size: 2.8rem;
+  }
+
+  .reviewer-name {
+    font-size: 0.8rem;
+  }
+  .reviewer-state {
+    font-size: 0.7rem;
+  }
+
+  /* contact and company info */
+  .company-details-section {
+    font-size: var(--small-text-680);
+    padding: 1rem;
+  }
+  .list-container {
+    width: 100%;
+  }
+  .pay-icon {
+    transform: scale(0.5);
+  }
+  .list-title {
+    font-size: var(--subtitle-text-680);
+  }
+  .menu {
+    display: block;
+  }
+  .contact-input {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 580px) {
+  /* HEADER */
+
+  .header {
+    padding: 0 0.6rem;
+  }
+
+  .logo {
+    font-size: 2.8rem;
+  }
+  .header-icon {
+    margin: 0 0.2rem;
+    font-size: 1.2rem;
+  }
+  /* HOME */
+  .home-section {
+    padding: 2rem;
+  }
+  .home-title {
+    font-size: 2.2rem;
+  }
+  .normal-text {
+    width: 100%;
+  }
+  .shop-now-btn {
+    width: 28%;
+  }
+
+  /*about section */
+
+  .learn-more-btn {
+    width: 35%;
+    height: 2.2rem;
+  }
+  .video-container {
+    height: 60%;
+  }
+  .video {
+    width: 100%;
+  }
+  .video-ribbon {
+    width: 100%;
+  }
+  .about-desc {
+    line-height: 1rem;
+  }
+
+  /* products sections */
+
+  .products-section {
+    height: 400vh;
+  }
+
+  .products-grid {
+    width: 70%;
+    height: 95%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .product-card {
+    height: 95%;
+  }
+
+  .actions-bar {
+    height: 17%;
+  }
+  .product-image:hover ~ .actions-bar,
+  .actions-bar:hover {
+    transform: translateY(-150%);
+  }
+
+  /* reviews section */
+  .customer-review-section {
+    height: 145vh;
+  }
+  .reviews-grid {
+    height: 82%;
+  }
+  .review-card {
+    height: 98%;
+  }
+
+  /* contact and company info */
+  .contact-section {
+    height: 125vh;
+  }
+  .contact-contents {
+    flex-direction: column;
+    height: 80%;
+  }
+  .contact-form {
+    width: 100%;
+    height: 55%;
+  }
+
+  .contact-img-container {
+    width: 100%;
+    height: 40%;
+  }
+
+  .contact-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* PRE FOOTER */
+  .company-details-section {
+    height: 140vh;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .list-container {
+    height: 95%;
+  }
+
+  .company-list {
+    line-height: 1.6rem;
+  }
+
+  .pay-icon {
+    transform: scale(0.4);
+    margin: -1.3rem;
+  }
+  /* FOOTER */
+  .footer {
+    font-size: 1rem;
+  }
+}
